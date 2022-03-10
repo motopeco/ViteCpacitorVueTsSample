@@ -6,7 +6,8 @@
   "extends": [
     "plugin:vue/vue3-recommended",
     "eslint:recommended",
-    "@vue/typescript/recommended"
+    "@vue/typescript/recommended",
+    "@vue/prettier"
   ],
   "parserOptions": {
     "ecmaVersion": "latest"
@@ -15,6 +16,11 @@
     "vue",
     "@typescript-eslint"
   ],
+  "settings": {
+    "import/resolver": {
+      "typescript": []
+    }
+  },
   "rules": {
   }
 }

@@ -2,14 +2,10 @@
 import { defineComponent } from 'vue'
 
 export default defineComponent({
-  name: 'App',
+  name: 'SamplePage',
 })
 </script>
 
 <template>
-  <div class="row">
-    <div class="col">
-      <router-view></router-view>
-    </div>
-  </div>
+  <div>bbb</div>
 </template>
